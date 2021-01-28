@@ -63,7 +63,7 @@ file_put_contents('css/index.scss.css', $content);
   <section class="section" id="home">
     <h1 data-sal="zoom-in" data-sal-duration="2000" data-sal-delay="500" data-sal-easing="ease-out-bounce">Geat Places To School</h1>
     <p>Get you school noticed among the GPTS</p>
-    <a class="btn-start" href="https://docs.google.com/forms/d/1fY2faWQ2ITUD9NmGEIOJy933idX0aEH_glvCJZFDc-U/edit#" target="_blank">TAKE SURVEY</a>
+    <a class="btn-start" href="https://docs.google.com/forms/d/e/1FAIpQLSey3D6qA7j2PQIHoAaKjB4DWA4Kw9gImbYdnCvhxJ7LQr9qng/viewform" target="_blank">TAKE SURVEY</a>
   </section>
 
   <section class="section2">
@@ -199,7 +199,7 @@ file_put_contents('css/index.scss.css', $content);
       </div>
       <p class="text-center">Get In Touch and we can have a chat about how GTPS will benefit your school</p>
       <div>
-        <a class="btn-start" href="https://docs.google.com/forms/d/1fY2faWQ2ITUD9NmGEIOJy933idX0aEH_glvCJZFDc-U/edit#" target="_blank">GET STARTED</a>
+        <a class="btn-start" href="https://docs.google.com/forms/d/e/1FAIpQLSey3D6qA7j2PQIHoAaKjB4DWA4Kw9gImbYdnCvhxJ7LQr9qng/viewform" target="_blank">GET STARTED</a>
       </div>
     </div>
   </section>
