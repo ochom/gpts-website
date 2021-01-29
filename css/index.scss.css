@@ -10,6 +10,9 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-family: 'Space Grotesk', sans-serif !important; }
+  body .navbar-brand {
+    color: #045121 !important;
+    font-weight: bold; }
   body .section {
     position: relative;
     width: 100%;
@@ -48,21 +51,21 @@ body {
       font-weight: 400;
       padding: 0 5em; }
     body .section p {
-      color: #1cdf02;
+      color: #f6c566;
       font-size: 1.5em;
       margin: 40px 0;
       padding: 0 5em; }
     body .section .btn-start {
       font-size: 0.9em;
       color: white;
-      background-color: #1b8cf7;
+      background-color: #013220;
       border: none;
       padding: 20px 40px;
       border-radius: 50px;
       cursor: pointer;
       text-decoration: none; }
       body .section .btn-start:hover {
-        background-color: #0364be; }
+        background-color: #045121; }
   body .section2 {
     width: 100%;
     height: auto;
@@ -76,7 +79,7 @@ body {
       body .section2 .card i {
         font-size: 2.5em;
         margin: 10px 0;
-        color: burlywood; }
+        color: #f6c566; }
   body .section3 {
     width: 100%;
     height: auto;
@@ -84,7 +87,7 @@ body {
     background-color: #d1d1d1;
     justify-content: center; }
     body .section3 h2 {
-      color: #244b00;
+      color: #045121;
       text-align: center;
       margin: 0; }
     body .section3 p {
@@ -128,7 +131,7 @@ body {
       text-align: center;
       margin: 0; }
     body .section4 h4 {
-      color: #0b6100;
+      color: #045121;
       font-size: 1em;
       padding: 0 0.8em;
       font-style: italic; }
@@ -159,7 +162,7 @@ body {
       padding: 10px 20px; }
       body .section5 ul li::before {
         content: "\25C8";
-        color: #15ff00;
+        color: #f48637;
         font-weight: bold;
         display: inline-block;
         width: 1.5em;
@@ -202,7 +205,7 @@ body {
       font-weight: 400;
       padding: 0 5em; }
     body .section7 p {
-      color: #1cdf02;
+      color: #045121;
       font-size: 1.5em;
       padding: 0 5em;
       font-weight: bold;
@@ -213,11 +216,11 @@ body {
     body .section7 .btn-start {
       font-size: 0.9em;
       color: white;
-      background-color: #1b8cf7;
+      background-color: #013220;
       border: none;
       padding: 20px 40px;
       border-radius: 50px;
       cursor: pointer;
       text-decoration: none; }
     body .section7 .btn-start:hover {
-      background-color: #0364be; }
+      background-color: #045121; }

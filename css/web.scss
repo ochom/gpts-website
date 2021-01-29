@@ -1,3 +1,9 @@
+$primary-green: #045121;
+$primary-brown: #f48637;
+$primary-red: #fc0008;
+$secondary-green: #013220;
+$secondary-brown: #f6c566;
+
 *{
   box-sizing: border-box;
 }
@@ -12,6 +18,10 @@ body{
   margin: 0;
   overflow-x: hidden;
   font-family: 'Space Grotesk', sans-serif !important;
+  .navbar-brand{
+    color: $primary-green !important;
+    font-weight: bold;
+  }
   .section{
     position: relative;
     width: 100%;
@@ -53,7 +63,7 @@ body{
       padding: 0 5em;
     }
     p{
-      color: rgb(28, 223, 2);
+      color: $secondary-brown;
       font-size: 1.5em;
       margin: 40px 0;
       padding: 0 5em;
@@ -61,14 +71,14 @@ body{
     .btn-start{
       font-size: .9em;
       color: white;
-      background-color: rgb(27, 140, 247);
+      background-color:$secondary-green;
       border: none;
       padding: 20px 40px;
       border-radius: 50px;
       cursor: pointer;
       text-decoration: none;
       &:hover{
-        background-color: rgb(3, 100, 190);
+        background-color: $primary-green;
       }
     }
   }
@@ -86,7 +96,7 @@ body{
       i{
         font-size: 2.5em;
         margin: 10px 0;
-        color: burlywood;
+        color: $secondary-brown;
       }
     }
   }
@@ -97,7 +107,7 @@ body{
     background-color: rgb(209, 209, 209);
     justify-content: center;
     h2{
-      color: #244b00;
+      color: $primary-green;
       text-align: center;
       margin: 0;
     }
@@ -105,7 +115,7 @@ body{
       padding: 0 5em;
     }
     h3{
-      color: #f48637;
+      color: $primary-brown;
     }
     b{
       font-family: 'Courier New', Courier, monospace !important;
@@ -144,12 +154,12 @@ body{
       background-image: url('/images/WhatsApp Image 2021-01-27 at 10.24.46 (1).jpeg');
     }
     h2{
-      color: #f48637;
+      color:$primary-brown;
       text-align: center;
       margin: 0;
     }
     h4{
-      color: rgb(11, 97, 0);
+      color: $primary-green;
       font-size: 1em;
       padding: 0 .8em;
       font-style: italic;
@@ -188,7 +198,7 @@ body{
         padding: 10px 20px;
         &::before {
           content: "\25C8";
-          color: rgb(21, 255, 0);
+          color: $primary-brown;
           font-weight: bold; 
           display: inline-block;
           width: 1.5em;
@@ -232,13 +242,13 @@ body{
     h2{
       margin: 0 0 50px 0;
       text-align: center;
-      color: #f48637;
+      color: $primary-brown;
       font-size: 4em;
       font-weight: 400;
       padding: 0 5em;
     }
     p{
-      color: rgb(28, 223, 2);
+      color: $primary-green;
       font-size: 1.5em;
       padding: 0 5em;
       font-weight: bold;
@@ -251,14 +261,14 @@ body{
     .btn-start{
       font-size: .9em;
       color: white;
-      background-color: rgb(27, 140, 247);
+      background-color:$secondary-green;
       border: none;
       padding: 20px 40px;
       border-radius: 50px;
       cursor: pointer;
       text-decoration: none;
       &:hover{
-        background-color: rgb(3, 100, 190);
+        background-color: $primary-green;
       }
     }
   }

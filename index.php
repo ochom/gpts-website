@@ -50,7 +50,8 @@ if ($DEBUG) {
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white px-4">
     <div class="container">
       <a href="/" class="navbar-brand">
-        <img src="images/logo_full.png" alt="LOGO" width="auto" height="30">
+        <img src="images/logo.png" alt="LOGO" width="30" height="30">
+        GPTS
       </a>
       <div class="collapse navbar-collapse" id="navbarText">
         <div class="navbar-nav ml-auto mt-2 mt-lg-0">
