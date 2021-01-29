@@ -1,9 +1,12 @@
 <?php
-require 'scssphp/scss.inc.php';
-$scss = new scssc();
-$scss->setImportPaths("css/");
-$content = $scss->compile('@import "web.scss"');
-file_put_contents('css/index.scss.css', $content);
+$DEBUG = false;
+if ($DEBUG) {
+  require 'scssphp/scss.inc.php';
+  $scss = new scssc();
+  $scss->setImportPaths("css/");
+  $content = $scss->compile('@import "web.scss"');
+  file_put_contents('css/index.scss.css', $content);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
