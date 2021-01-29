@@ -111,12 +111,12 @@ if ($DEBUG) {
       <p class="py-3">Students spend most of their formative years in schools, and it is critical that schools offer a vital opportunity to ensure that they get
         the support required to reach their full potential.</p>
       <div class="row col-12 mx-auto">
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <div class="card card-body p-1">
             <video src="images/WhatsApp Video 2021-01-27 at 10.24.40.mp4" autoplay="true" loop="true"></video>
           </div>
         </div>
-        <div class="col-6 p-3" data-sal="zoom-in" data-sal-delay="500" data-sal-duration="500" data-sal-easing="ease-out-back">
+        <div class="col-12 col-md-6" data-sal="zoom-in" data-sal-delay="500" data-sal-duration="500" data-sal-easing="ease-out-back">
           <h3>What We Do</h3>
           <b>We are an impact-driven initiative with the aim of identifying, rating and recognizing schools whose innovative learning environment and
             overall school culture contribute to the wholesome development of students.
@@ -166,12 +166,12 @@ if ($DEBUG) {
     <div class="container py-5">
       <h2 class="text-center">Award Catergories</h2>
       <div class="row col-12 mx-auto py-3">
-        <div class="col-6">
+        <div class="col-6col-12 col-md-6">
           <div class="card card-body">
             <img src="images/careers.png" alt="careers" />
           </div>
         </div>
-        <div class="col-6 p-3">
+        <div class="col-12 col-md-6">
           <ul>
             <li data-sal="zoom-out" data-sal-delay="500" data-sal-duration="500" data-sal-easing="ease-out-back">Health &amp; Personal Hygien</li>
             <li data-sal="zoom-out" data-sal-delay="750" data-sal-duration="500" data-sal-easing="ease-out-back">Extra-curricula &amp; Sports Activities</li>
@@ -210,7 +210,7 @@ if ($DEBUG) {
 
   <section class="py-3 bg-dark text-light">
     <h6 class="text-center m-0 p-0">
-      Copyright &copy; <script>
+      &copy; <script>
         document.write(new Date().getFullYear());
       </script> GPTS</h6>
   </section>
