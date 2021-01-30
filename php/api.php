@@ -10,7 +10,7 @@ if (mysqli_connect_errno()) {
   exit();
 }
 
-if (isset($_POST['contactForm'])) {
+if (isset($_POST['name']) && isset($_POST['email'])) {
   $name = $_POST['name'];
   $email = $_POST['email'];
   $phone = $_POST['phone'];
@@ -24,7 +24,7 @@ if (isset($_POST['contactForm'])) {
 }
 
 
-if (isset($_POST['subscribe'])) {
+if (!isset($_POST['name']) && isset($_POST['email'])) {
   $email = $_POST['email'];
   $query = "INSERT INTO tblContactForms (email) VALUES (?)";
   if ($pst = $db->prepare($query)) {
