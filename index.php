@@ -200,16 +200,16 @@ if ($DEBUG) {
       <div class="row col-12 justify-content-center">
         <form id="formContactUs" method="post" class="col-12 col-md-6">
           <div class="form-group col-12">
-            <input type="text" class="form-control" placeholder="Your name" />
+            <input type="text" name="name" class="form-control" placeholder="Your name" />
           </div>
           <div class="form-group col-12">
-            <input type="text" class="form-control" placeholder="Your email" />
+            <input type="text" name="email" class="form-control" placeholder="Your email" />
           </div>
           <div class="form-group col-12">
-            <input type="text" class="form-control" placeholder="Phone number" />
+            <input type="text" name="phone" class="form-control" placeholder="Phone number" />
           </div>
           <div class="form-group col-12">
-            <textarea type="text" class="form-control" placeholder="Leave us a message"></textarea>
+            <textarea type="text" name="message" class="form-control" placeholder="Leave us a message"></textarea>
           </div>
           <div class="form-group col-12">
             <button type="submit" class="btn btn-start btn-block">Submit</button>
@@ -228,7 +228,7 @@ if ($DEBUG) {
       <form id="formSubscribe" method="post" class="col-12 col-md-6">
         <h3 class="px-3">Subscribe to our newsletter</h3>
         <div class="form-group col-12">
-          <input type="email" name="" required class="form-control" placeholder="Your email address">
+          <input type="email" name="email" required class="form-control" placeholder="Your email address">
         </div>
       </form>
     </div>
