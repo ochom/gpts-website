@@ -37,7 +37,6 @@ if ($DEBUG) {
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" async></script>
   <script src="https://use.fontawesome.com/f36a81ef56.js" async></script>
   <script src="js/sal.js"></script>
-  <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -197,23 +196,49 @@ if ($DEBUG) {
   <section class="section7" id="contact">
     <div class="container">
       <h2 class="text-center">Contact Us</h2>
+      <p class="text-center text-white">Get In Touch and we can have a chat about how GTPS will benefit your school</p>
+      <div class="row col-12 justify-content-center">
+        <form id="formContactUs" method="post" class="col-12 col-md-6">
+          <div class="form-group col-12">
+            <input type="text" class="form-control" placeholder="Your name" />
+          </div>
+          <div class="form-group col-12">
+            <input type="text" class="form-control" placeholder="Your email" />
+          </div>
+          <div class="form-group col-12">
+            <input type="text" class="form-control" placeholder="Phone number" />
+          </div>
+          <div class="form-group col-12">
+            <textarea type="text" class="form-control" placeholder="Leave us a message"></textarea>
+          </div>
+          <div class="form-group col-12">
+            <button type="submit" class="btn btn-start btn-block">Submit</button>
+          </div>
+        </form>
+      </div>
       <div class="row mx-auto justify-content-center my-3">
         <b class="mr-5"><i class="fa fa-phone text-success mr-2"></i><a href="tel:+254703144103">+254-703-144103</a></b>
         <b><i class="fa fa-envelope-o text-success mr-2"></i><a href="mailTo:greatplacestoschool@standardmedia.co.ke">greatplacestoschool@standardmedia.co.ke</a></b>
-      </div>
-      <p class="text-center">Get In Touch and we can have a chat about how GTPS will benefit your school</p>
-      <div>
-        <a class="btn-start" href="https://docs.google.com/forms/d/e/1FAIpQLSey3D6qA7j2PQIHoAaKjB4DWA4Kw9gImbYdnCvhxJ7LQr9qng/viewform" target="_blank">GET STARTED</a>
       </div>
     </div>
   </section>
 
   <section class="py-3 bg-dark text-light">
+    <div class="row py-5 justify-content-center">
+      <form id="formSubscribe" method="post" class="col-12 col-md-6">
+        <h3 class="px-3">Subscribe to our newsletter</h3>
+        <div class="form-group col-12">
+          <input type="email" name="" required class="form-control" placeholder="Your email address">
+        </div>
+      </form>
+    </div>
     <h6 class="text-center m-0 p-0">
       &copy; <script>
         document.write(new Date().getFullYear());
       </script> GPTS</h6>
   </section>
+
+  <script src="js/index.js"></script>
 </body>
 
 </html>

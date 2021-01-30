@@ -14,4 +14,35 @@ $(document).ready(function () {
   });
 
   sal();
+
+})
+
+$("#formContactUs").submit(function (e) {
+  e.preventDefault();
+  $.ajax({
+    type: 'post',
+    url: '/php/api.php',
+    data: $('#formContactUs').serialize(),
+    success: function (res) {
+      console.log(res);
+    },
+    error: function (err) {
+      console.log(err);
+    }
+  });
+})
+
+$("#formSubscribe").submit(function (e) {
+  e.preventDefault();
+  $.ajax({
+    type: 'post',
+    url: '/php/api.php',
+    data: $('#formSubscribe').serialize(),
+    success: function (res) {
+      console.log(res);
+    },
+    error: function (err) {
+      console.log(err);
+    }
+  });
 })
