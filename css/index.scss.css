@@ -10,9 +10,13 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-family: 'Space Grotesk', sans-serif !important; }
-  body .navbar-brand {
+  body .navbar .navbar-brand {
     color: #045121 !important;
     font-weight: bold; }
+    body .navbar .nav-link {
+      font-weight: bold;
+      margin-right: 10px;
+      color: #013220 !important; }
   body .section {
     position: relative;
     width: 100%;
@@ -166,6 +170,10 @@ body {
         display: inline-block;
         width: 1.5em;
         margin-left: 0; }
+  body .section6 img {
+    margin-left: 0;
+    width: 100vw;
+    height: auto; }
   body .section7 {
     position: relative;
     width: 100%;
@@ -221,3 +229,23 @@ body {
       text-decoration: none; }
     body .section7 .btn-start:hover {
       background-color: #045121; }
+  body .section8 a {
+    text-decoration: none;
+    color: white; }
+    body .section8 .btn-start {
+      font-size: 0.9em;
+      color: white;
+      background-color: #013220;
+      border: none;
+      padding: 20px 40px;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none; }
+    body .section8 .btn-start:hover {
+      background-color: #045121; }
+  body .sectionFeedBack {
+    height: auto;
+    padding: 70px 0; }
+    body .sectionFeedBack .img {
+      width: 100%;
+      height: auto; }

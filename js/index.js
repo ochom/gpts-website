@@ -24,9 +24,14 @@ $("#formContactUs").submit(function (e) {
     url: '/php/api.php',
     data: $('#formContactUs').serialize(),
     success: function (res) {
-      console.log(res);
+      if (res.includes("success")) {
+        location.href = "/success.php";
+      } else {
+        location.href = "/error.php";
+      }
     },
     error: function (err) {
+      location.href = "/error.php";
       console.log(err);
     }
   });
@@ -40,8 +45,14 @@ $("#formSubscribe").submit(function (e) {
     data: $('#formSubscribe').serialize(),
     success: function (res) {
       console.log(res);
+      if (res.includes("success")) {
+        location.href = "/success.php";
+      } else {
+        location.href = "/error.php";
+      }
     },
     error: function (err) {
+      location.href = "/error.php";
       console.log(err);
     }
   });

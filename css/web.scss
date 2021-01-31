@@ -18,9 +18,16 @@ body{
   margin: 0;
   overflow-x: hidden;
   font-family: 'Space Grotesk', sans-serif !important;
-  .navbar-brand{
-    color: $primary-green !important;
-    font-weight: bold;
+  .navbar{
+    .navbar-brand{
+      color: $primary-green !important;
+      font-weight: bold;
+    }
+    .nav-link{
+      font-weight: bold;
+      margin-right: 10px;
+      color: $secondary-green !important;
+    }
   }
   .section{
     position: relative;
@@ -206,6 +213,13 @@ body{
       }
     }
   }
+  .section6{
+    img{
+      margin-left: 0;
+      width: 100vw;
+      height: auto;
+    }
+  }
   .section7{
     position: relative;
     width: 100%;
@@ -269,4 +283,33 @@ body{
       }
     }
   }
+  .section8{
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    .btn-start{
+      font-size: .9em;
+      color: white;
+      background-color:$secondary-green;
+      border: none;
+      padding: 20px 40px;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none;
+      &:hover{
+        background-color: $primary-green;
+      }
+    }
+  }
+
+  .sectionFeedBack{
+    height: auto;
+    padding: 70px 0;
+    .img{
+      width: 100%;
+      height: auto;
+    }
+  }
 }
+

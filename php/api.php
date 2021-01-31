@@ -26,7 +26,7 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 
 if (!isset($_POST['name']) && isset($_POST['email'])) {
   $email = $_POST['email'];
-  $query = "INSERT INTO tblContactForms (email) VALUES (?)";
+  $query = "INSERT INTO tblSubscriptions (email) VALUES (?)";
   if ($pst = $db->prepare($query)) {
     $pst->bind_param("s", $email);
     $pst->execute();
