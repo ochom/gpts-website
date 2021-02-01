@@ -15,7 +15,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <div class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <a class="nav-item nav-link" href="/">Home</a>
+        <a class="nav-item nav-link active" href="#home">Home</a>
         <a class="nav-item nav-link" href="#about">About Us</a>
         <a class="nav-item nav-link" href="#awards">Awards</a>
         <a class="nav-item nav-link" href="#partners">Partners</a>

@@ -15,8 +15,9 @@ body {
     font-weight: bold; }
     body .navbar .nav-link {
       font-weight: bold;
-      margin-right: 10px;
-      color: #013220 !important; }
+      margin-right: 10px; }
+    body .navbar .active {
+      color: #fc0008 !important; }
   body .section {
     position: relative;
     width: 100%;
