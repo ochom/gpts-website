@@ -1,5 +1,5 @@
 <?php
-$DEBUG = true;
+$DEBUG = false;
 if ($DEBUG) {
   require 'scssphp/scss.inc.php';
   $scss = new scssc();
