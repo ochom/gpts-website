@@ -53,7 +53,7 @@
       <div class="row col-12 mx-auto">
         <div class="col-12 col-md-6">
           <div class="card card-body p-1">
-            <video src="images/WhatsApp Video 2021-01-27 at 10.24.40.mp4" autoplay="true" loop="true"></video>
+            <video src="images/WhatsApp Video 2021-01-27 at 10.24.40.mp4" controls="true"></video>
           </div>
         </div>
         <div class="col-12 col-md-6" data-sal="zoom-in" data-sal-delay="500" data-sal-duration="500" data-sal-easing="ease-out-back">
